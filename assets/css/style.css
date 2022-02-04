@@ -412,6 +412,21 @@ section {
 }
 .section-bg:before {
   content: "";
+  background: #1b1b1b; /*- 1b1b1b -*/
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
+
+.section-bg-2 {
+  padding: 120px 0;
+  color: #fff;
+}
+.section-bg-2:before {
+  content: "";
   background: #1b1b1b;
   position: absolute;
   bottom: 60px;
