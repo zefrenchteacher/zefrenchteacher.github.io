@@ -412,7 +412,7 @@ section {
 }
 .section-bg:before {
   content: "";
-  background: #9485e5;
+  background: #1b1b1b;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -1676,7 +1676,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #9485e5;
+  background: #1b1b1b;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
