@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Presento Bootstrap Template</title>
+  <title>Inner Page - Presento Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,19 +41,17 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">Ze French Teacjer<span>.</span></a></h1>
+      <h1 class="logo me-auto"><a href="index.html">Ze French Teacher<span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto active" href="#portfolio">Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Classes</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="oral_exam.html">Oral 1:1 (LC Exams)</a></li>
               <li class="dropdown"><a href="weekly_grinds.html"><span>Weekly Grinds</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">3rd Year</a></li>
@@ -62,9 +60,22 @@
                   <li><a href="#">6th Year Excellence</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="oral_exam.html">Oral 1:1 (LC Exams)</a></li>
+              <li class="dropdown"><a href="#"><span>Intensive Week</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">3rd Year</a></li>
+                  <li><a href="#">6th Year Booster</a></li>
+                  <li><a href="#">6th Year Excellence</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Intensive Weekend</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">3rd Year</a></li>
+                  <li><a href="#">6th Year Booster</a></li>
+                  <li><a href="#">6th Year Excellence</a></li>
+                </ul>
+              </li>
+              <!-- <li><a href="#">Drop Down 2</a></li> -->
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -75,7 +86,6 @@
       <a href="pricing.html" class="get-started-btn scrollto">Pricing</a>
     </div>
   </header><!-- End Header -->
-
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -84,62 +94,45 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Portfolio Details</li>
+          <li>About</li>
         </ol>
-        <h2>Portfolio Details</h2>
+        <h2>About</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
 
-        <div class="row gy-4">
+    <section id="tabs" class="tabs">
+      <div class="container" data-aos="fade-up">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <h3>Bonjour, my name is Carole, I’m a Native French Teacher</h3>
+                <p class="fst-italic">
+                  I have a Master’s degree in Translation (French / English / Spanish) in Grenoble, France. Master’s Degree in Sciences of Education in Grenoble, France
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 18 years teaching Secondary students in Europe.</li>
+                  <li><i class="ri-check-double-line"></i> 10 years living in Ireland (and loving it!)</li>
+                  <li><i class="ri-check-double-line"></i> 10 years teaching Secondary students in Ireland.</li>
+                </ul>
+                <p>
+                 
+                </p>
               </div>
-              <div class="swiper-pagination"></div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/about.png" alt="" class="img-fluid">
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
 
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End Tabs Section -->
 
   </main><!-- End #main -->
 
