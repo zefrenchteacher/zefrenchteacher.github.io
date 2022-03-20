@@ -120,6 +120,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6px 18px;
   }
 }
+.get-started-btn-2 {
+  margin-left: 30px;
+  background: #3755d8;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
