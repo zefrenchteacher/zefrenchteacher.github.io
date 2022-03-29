@@ -132,6 +132,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   display: inline-block;
 }
+.get-started-btn-3 {
+  margin-left: 30px;
+  background: #fff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
