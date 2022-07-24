@@ -621,6 +621,12 @@ progress {
   color: #6c757d;
 }
 
+.iframe-container {
+  text-align:center;
+  width:100%;
+}
+
+
 .container,
 .container-fluid,
 .container-xxl,
